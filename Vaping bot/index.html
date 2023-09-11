@@ -58,10 +58,24 @@
 <script>
         const styleOptions = {
 
-           // Add styleOptions to customize Web Chat canvas
-           hideUploadButton: true,
-           suggestedActionLayout: 'stacked',
-           suggestedActionsStackedLayoutButtonTextWrap: true
+        // Add styleOptions to customize Web Chat canvas
+        hideUploadButton: true,
+        suggestedActionLayout: 'stacked', // vertical aignment for button options
+        suggestedActionsStackedLayoutButtonTextWrap: true,
+        botAvatarInitials: 'BT',
+        accent: '#003087',
+        botAvatarBackgroundColor: "#FFFFFF",
+        botAvatarImage: 'https://lagunaai-my.sharepoint.com/personal/juanariasv_lagunaai_onmicrosoft_com/Documents/output-onlinepngtools.png',
+        userAvatarInitials: 'BT',
+        accent: '#003087',
+        userAvatarBackgroundColor: "#FFFFFF",
+        userAvatarImage: 'https://image.flaticon.com/icons/png/128/4776/4776976.png',
+        hideUploadButton: true,
+        suggestedActionDisabledBorder: null,
+        suggestedActionDisabledBorderColor: '#E6E6E6',
+        suggestedActionDisabledBorderStyle: 'solid',
+        suggestedActionDisabledBorderWidth: 2,
+        emojiSet: true
         };
 
         // Add your BOT token endpoint below
@@ -98,7 +112,6 @@
             .catch(err => console.error("An error occurred: " + err));
 
     </script>
-
 </body>
 
 </html>
